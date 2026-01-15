@@ -6,15 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Number Guessing Game</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="../styles.css">
 </head>
 <body style="background-color:#212121; color:#fff;">
-  <nav>
-    <a href="/" aria-current="page">Home</a>
-    <a target="_blank" href="https://www.youtube.com/@chaiaurcode"
-      >Made By Ayush Course: Chai Aur Code for reference</a
-    >
-  </nav>
+
     
     <div id="wrapper">
       <h1>Number guessing game</h1>
@@ -28,9 +22,9 @@
         </form>
 
         <div class="resultParas">
-            <p >Previous Guesses: <span class="guesses"></span></p>
-            <p >Guesses Remaining: <span class="lastResult">10</span></p>
-            <p class="lowOrHi"></p>
+            <p id="lowOrHi" class="lowOrHi"></p>
+            <p >Previous Guesses: <span id="prevGuess" class="guesses"></span></p>
+            <p >Guesses Remaining: <span id="guessremain" class="lastResult">10</span></p>
         </div>
     </div>
     <script src="chaiaurcode.js"></script>
