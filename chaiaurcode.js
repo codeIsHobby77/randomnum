@@ -7,6 +7,8 @@ let prevguess=document.getElementById('prevGuess')
 
 array=[]
 
+let lastArray
+
 
 
 input=document.getElementById('subt')
@@ -67,6 +69,7 @@ function restart(){
     guessNumber=10
     document.getElementById('guessField').value=""
     randomNumber=Math.floor(Math.random()*100)+1
-    lastArray= prevguess.innerHTML=""
+   array=[]
 }
+
 
